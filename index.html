@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Demo for TENEX.AI</title>
+<meta name="description" content="ThreatLens AI is a browser-based security alert triage prototype that uses structured LLM output and MITRE ATT&CK-aware analysis.">
+<title>ThreatLens AI | Security Alert Triage</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -968,8 +969,8 @@
     <div class="logo-block">
       <div class="logo-icon"></div>
       <div>
-        <div class="logo-text">MY DEMO FOR TENEX.AI</div>
-        <div class="logo-sub">AI Alert Triage Engine</div>
+        <div class="logo-text">THREATLENS AI</div>
+        <div class="logo-sub">Security Alert Triage Lab</div>
       </div>
     </div>
     <div class="header-meta">
@@ -983,8 +984,8 @@
 
   <!-- MISSION STRIP -->
   <div class="mission">
-    <span class="mission-label">CONTEXT</span>
-    Modern SOCs receive thousands of alerts daily. 97% are noise. This engine triages every alert using MITRE ATT&CK taxonomy, severity scoring, and AI-powered analyst reasoning — so your team focuses only on real threats.
+    <span class="mission-label">PURPOSE</span>
+    ThreatLens AI is a browser-based security alert triage prototype. It maps alert evidence to MITRE ATT&amp;CK, estimates severity and priority, extracts indicators of compromise, and generates a structured containment plan for analyst review.
   </div>
 
   <!-- API KEY -->
@@ -993,7 +994,7 @@
     <input class="apikey-input" id="apikey-input" type="password" placeholder="AIza..." spellcheck="false" autocomplete="off" />
     <button class="apikey-confirm" id="apikey-btn" onclick="setApiKey()">SET KEY →</button>
     <span class="apikey-set" id="apikey-set">✓ KEY ACTIVE</span>
-    <div class="apikey-hint">Free key (no credit card) at <a href="https://aistudio.google.com/apikey" target="_blank">aistudio.google.com/apikey</a> · Held in memory only, never stored, sent only to Google's API.</div>
+    <div class="apikey-hint">Free key (no credit card) at <a href="https://aistudio.google.com/apikey" target="_blank" rel="noopener noreferrer">aistudio.google.com/apikey</a> · Held in memory only, never stored, sent only to Google's API.</div>
   </div>
 
   <!-- SAMPLE ALERTS -->
@@ -1227,7 +1228,7 @@ Example: Multiple failed authentication attempts detected from external IP 203.0
       </div>
       <div class="arch-detail">
         <strong>Why Gemini here</strong>
-        Google's API supports direct browser CORS calls with a free API key. No backend server needed — the entire demo runs client-side. Free tier: 15 req/min, 1000 req/day.
+        Google's API supports direct browser calls, allowing this prototype to run without a dedicated backend. The API key remains in browser memory for the active session and is sent only with model requests.
       </div>
     </div>
   </div>
@@ -1235,21 +1236,21 @@ Example: Multiple failed authentication attempts detected from external IP 203.0
   <!-- CLOSING CARD -->
   <div style="border: 1px solid var(--border); background: var(--bg2); padding: 32px 36px; margin-bottom: 40px; position: relative; overflow: hidden;">
     <div style="position:absolute; top:0; left:0; width:3px; height:100%; background: var(--cyan);"></div>
-    <div style="font-size:10px; color:var(--cyan); letter-spacing:0.25em; text-transform:uppercase; margin-bottom:18px;">About the builder</div>
+    <div style="font-size:10px; color:var(--cyan); letter-spacing:0.25em; text-transform:uppercase; margin-bottom:18px;">About the project</div>
     <p style="font-size:13px; line-height:1.9; color:var(--text);">
-      I am <span style="color:var(--text-bright); font-weight:500;">Khushi Savaliya</span> and I'll graduate in June 2026 with a master's in CSE from Santa Clara University. I'm open to full-time roles and internships starting July 2026.
+      ThreatLens AI is a personal engineering project by <span style="color:var(--text-bright); font-weight:500;">Khushi Savaliya</span>, a software engineer and M.S. Computer Science &amp; Engineering graduate from Santa Clara University.
     </p>
     <p style="font-size:13px; line-height:1.9; color:var(--text); margin-top:14px;">
-      We can discuss my skills that could be leveraged for the open roles in the interview. Give me take-home projects, be it overly specific or completely open-ended — it'll be fun.
+      The project demonstrates structured LLM output, client-side API integration, MITRE ATT&amp;CK-aware prompting, defensive JSON parsing, responsive interface design, and clear presentation of analyst-facing decisions.
     </p>
     <p style="font-size:13px; line-height:1.9; color:var(--text); margin-top:14px;">
-      Let's connect @ <a href="mailto:khushisavaliya22@gmail.com" style="color:var(--cyan); text-decoration:none;">khushisavaliya22@gmail.com</a>
+      View more of my work through the GitHub link below, or contact me at <a href="mailto:khushisavaliya22@gmail.com" style="color:var(--cyan); text-decoration:none;">khushisavaliya22@gmail.com</a>.
     </p>
   </div>
 
   <!-- FOOTER -->
   <div class="footer">
-    <span>Built by <a href="https://khushiatcode.github.io/portfolio-resume/" target="_blank">Khushi Savaliya</a> · khushisavaliya22@gmail.com &amp; Claude in 1 hour</span>
+    <span>Designed and built by <a href="https://github.com/khushiatcode/" target="_blank" rel="noopener noreferrer">Khushi Savaliya</a> · <a href="mailto:khushisavaliya22@gmail.com">khushisavaliya22@gmail.com</a></span>
     <span>MITRE ATT&CK® is a registered trademark of The MITRE Corporation</span>
   </div>
 
